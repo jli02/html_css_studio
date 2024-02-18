@@ -1,20 +1,56 @@
-#logoBar{
+#logoBar {
   width: 30vw;
   height: 100vh;
 }
-#siteLogo{
+#siteLogo {
   width: 100%;
 }
+
 body {
   display: flex;
+  background-color: #fffdd0;
+  color: #1f3b4d;
 }
-#staffGallery{
+
+#staffGallery {
   width: 70vw;
   display: inherit;
-
+  justify-content: space-evenly;
 }
-.galleryImage{
-  width: 100%;
+
+.galleryImage {
+  width: 100px;
   height: auto;
-  height: 300px;
+}
+
+h1,
+h3 {
+  font-family: "Indie Flower", cursive;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+hr {
+  border: 10px solid green;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  #logoBar {
+    width: 100vw;
+    height: 500px;
+  }
+
+  hr {
+    width: 100%;
+  }
 }
