@@ -16,13 +16,13 @@ body {
 #staffGallery {
   width: 70vw;
   display: inherit;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 20px;
+  margin: 10px;
+  justify-content: center;
 }
 
 .galleryImage {
-  width: 150px;
+  width: 170px;
   height: auto;
   background-color: #dbe098;
   border-radius: 10px 100px / 80px;
@@ -33,18 +33,19 @@ h3,
 h4 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
 .card {
-  width: 150px;
-  height: 200px;
+  width: 170px;
+  height: 220px;
   background-color: #bcc07b;
   border: 2px solid #8b715b;
   border-radius: 10px 120px / 120px;
   text-align: right;
   padding: 10px;
+  margin: 20px;
 }
 
 hr {
@@ -65,5 +66,9 @@ hr {
 
   hr {
     width: 100%;
+  }
+
+  #staffGallery {
+    width: 100vw;
   }
 }
